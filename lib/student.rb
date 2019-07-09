@@ -17,10 +17,8 @@ class Student
           name 
           location
           
-          binding.pry
-          
         end 
-        
+        binding.pry
         
         
       end 
