@@ -12,6 +12,7 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.each do |hash|
+      hash.collect do |key, name|
       
       
       
@@ -23,6 +24,7 @@ class Student
   
         
         binding.pry 
+      end 
       end
     end 
 
