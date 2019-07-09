@@ -11,9 +11,9 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    students_array.each do |student, location|
+    students_array.each do |student_info|
       student
-      location
+      
       
       
       binding.pry
