@@ -13,11 +13,10 @@ class Student
   def self.create_from_collection(students_array)
     students_array.each do |student_info|
       student_info.each do |key, value|
-        key.each do |name, location|
+        
   
         
         binding.pry
-      end 
       end 
   end
 end 
