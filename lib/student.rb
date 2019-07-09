@@ -21,7 +21,6 @@ class Student
         #binding.pry
       end 
   end
-  student
 end 
 
   def add_student_attributes(attributes_hash)
