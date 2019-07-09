@@ -18,7 +18,7 @@ class Student
         
   
         
-        binding.pry
+        #binding.pry
       end 
   end
 end 
