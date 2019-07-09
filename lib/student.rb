@@ -14,6 +14,7 @@ class Student
     students_array.each do |student_info|
       student_info.each do |key, name|
         student = self.new(name)
+        student.name = name
         
   
         
