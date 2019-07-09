@@ -11,10 +11,14 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    students_array.each do |student_info|
-      student_info.each do |key, name|
-        student = self.new(name)
-        student.name = name
+    students_array.each do |key, value|
+      
+      
+      
+      
+      # student_info.each do |key, name|
+      #   student = self.new(name)
+      #   student.name = name
         
   
         
