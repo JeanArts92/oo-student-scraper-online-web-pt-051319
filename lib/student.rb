@@ -14,6 +14,8 @@ class Student
     students_array.each do |student_info|
       student_info.each do |key, student_name|
         key.each do |name, location|
+          name 
+          location
           
           binding.pry
           
