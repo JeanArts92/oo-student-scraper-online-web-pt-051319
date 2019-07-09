@@ -11,23 +11,9 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    students_array.each do |hash|
-      hash.collect do |key, name|
-        
-      
-      
-      
-      
-      # student_info.each do |key, name|
-      #   student = self.new(name)
-      #   student.name = name
-        
-  
-        
-        binding.pry 
-      end 
-      end
-    end 
+
+     students_array.each{|student| Student.new(student)}
+  end	  
 
   def add_student_attributes(attributes_hash)
     
