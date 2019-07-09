@@ -6,7 +6,7 @@ class Student
 
   def initialize(student_hash)
     
-    binding.pry
+    
     
   end
 
